@@ -6,6 +6,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
 import LIfeStyle from "../LIfeStyle/LIfeStyle";
+import bgpng from '../../assets/bgpng.png'
 
 const Banner = () => {
 
@@ -14,7 +15,13 @@ const Banner = () => {
     }, [])
 
     return (
-        <div className={`h-[230vh] md:h-[190vh] lg:h-[180vh] bg-gradient-to-r from-teal-50 to-sky-50`}>
+        <div  style={{
+            backgroundImage: `url(${bgpng})`,
+            backgroundSize: 'cover',
+            backgroundRepeat: 'no-repeat',
+            backgroundPosition: 'center',
+          }}
+        >
             <div className="max-w-screen-xl pt-16 mx-auto grid grid-cols-1 md:grid-cols-2 gap-12 justify-center items-center">
                 <div className="ml-0 md:ml-10">
                     <div className="flex md:pl-3 lg:pl-0 justify-center">  <img className="w-3/4 md:w-[420px] border-8  border-white rounded-tl-[120px] rounded-br-[120px]  shadow-xl hover:scale-110 transition duration-500 cursor-pointer" src={banner} alt="" /></div>

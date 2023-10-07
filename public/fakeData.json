@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "photo": "https://i.ibb.co/N6MTtKV/pexels-evgeniy-volivach-10256496.jpg",
+      "details_pic1": "https://i.ibb.co/7GmtZs0/pexels-mat-brown-1395967.jpg",
+      "details_pic2": "https://i.ibb.co/87Rxb7n/pexels-soner-g-rkem-6119578.jpg",
+      "details_pic3": "https://i.ibb.co/9gk0wZH/pexels-5005252.jpg",
+      "details_pic4": "https://i.ibb.co/gwFfFBw/pexels-tembela-bohle-1114425.jpg",
+      "price": 499.99,
+      "name": "Weddings",
+      "description": "Welcome to 'Elegance Events,' your trusted partner in crafting unforgettable wedding experiences. At Elegance Events, we understand that your wedding day is one of the most cherished moments of your life. That's why we're dedicated to turning your dreams into reality. Our passionate and experienced wedding planning team is committed to creating weddings that reflect your unique love story and style. From intimate elopements to grand, lavish celebrations, we specialize in curating every detail to perfection."
+    },
+    {
+      "id": 2,
+      "photo": "https://i.ibb.co/2FFYZfs/pexels-derick-makwasi-12844889-1.jpg",
+      "details_pic1": "https://i.ibb.co/xLyQK0k/pexels-cup-of-couple-8014699.jpg",
+      "details_pic2": "https://i.ibb.co/RSKdKqD/pexels-pavel-danilyuk-7180617.jpg",
+      "details_pic3": "https://i.ibb.co/x1PcK7S/pexels-thirdman-7600387.jpg",
+      "details_pic4": "https://i.ibb.co/xM0SBBL/pexels-pavel-danilyuk-7180801.jpg",
+      "price": 299.99,
+      "name": "Birthday Parties",
+      "description": "At PartyPro Planners, we believe that birthdays are more than just another day on the calendar – they're moments to be cherished, memories to be made, and dreams to come true. We are your dedicated team of birthday party enthusiasts, committed to turning your special day into an unforgettable experience. We are a passionate and creative team of event planners who specialize in designing and executing the perfect birthday celebrations. From whimsical children's parties to elegant milestone birthdays, we have the expertise to make every moment memorable."
+    },
+    {
+      "id": 3,
+      "photo": "https://i.ibb.co/tmv9QdS/pexels-marc-nsikita-10841466.jpg",
+      "details_pic1": "https://i.ibb.co/NWV5G1Q/pexels-karolina-grabowska-8106649.jpg",
+      "details_pic2": "https://i.ibb.co/K2C2c4k/pexels-pavel-danilyuk-7944136.jpg",
+      "details_pic3": "https://i.ibb.co/5hhjNpQ/pexels-pavel-danilyuk-7944238.jpg",
+      "details_pic4": "https://i.ibb.co/k4YBKP0/pexels-pavel-danilyuk-7944240.jpg",
+      "price": 249.99,
+      "name": "Graduation Parties",
+      "description": "At Graduation Gala Planners, we understand that graduation is more than just receiving a diploma; it's a monumental achievement that deserves a remarkable celebration. We are your dedicated team of event experts, committed to turning your graduation party into an unforgettable experience. We are a passionate and creative team of event planners who specialize in crafting unique and personalized graduation parties. From high school graduates taking their first steps into adulthood to college graduates embarking on new adventures, we have the expertise to create memorable milestones."
+    },
+    {
+      "id": 4,
+      "photo": "https://i.ibb.co/w6N5KFP/pexels-mikhail-nilov-8390634.jpg",
+      "details_pic1": "https://i.ibb.co/0t6YjD4/pexels-antoni-shkraba-4753648.jpg",
+      "details_pic2": "https://i.ibb.co/KzQLCZg/pexels-chris-f-1680755.jpg",
+      "details_pic3": "https://i.ibb.co/X53PPg3/pexels-quang-nguyen-vinh-4078029.jpg",
+      "details_pic4": "https://i.ibb.co/4f1kGML/pexels-olena-bohovyk-5686476.jpg",
+      "price": 149.99,
+      "name": "Themed Parties",
+      "description": "At ThemeCraft Events, we believe that themed parties have the power to transport guests to magical worlds and create unforgettable memories. We are your dedicated team of event wizards, committed to turning your themed party dreams into awe-inspiring realities. We are a passionate and imaginative team of event planners who specialize in crafting themed parties that are out of this world. From whimsical fairy tales to thrilling adventures, we have the expertise to transform your ideas into a fully immersive experience."
+    },
+    {
+      "id": 5,
+      "photo": "https://i.ibb.co/Nt70gJW/pexels-rene-asmussen-4451298.jpg",
+      "details_pic1": "https://i.ibb.co/XkV4vLV/pexels-jonathan-borba-5610322.jpg",
+      "details_pic2": "https://i.ibb.co/cvShTfY/pexels-maria-orlova-4946720.jpg",
+      "details_pic3": "https://i.ibb.co/fX9YgSJ/pexels-darya-greyowl-15007438.jpg",
+      "details_pic4": "https://i.ibb.co/fX9YgSJ/pexels-darya-greyowl-15007438.jpg",
+      "price": 199.99,
+      "name": "Anniversary Parties",
+      "description": "At LoveBond Events, we understand that anniversaries mark not just the passage of time but the enduring love between two people. We are your dedicated team of event artisans, committed to creating heartwarming and unforgettable anniversary parties that honor your journey and love story. We are a passionate and seasoned team of event planners who specialize in crafting anniversary celebrations that capture the essence of your love. Whether you're celebrating one year or fifty, we have the expertise to transform your love story into a beautiful celebration."
+    },
+    {
+      "id": 6,
+      "photo": "https://i.ibb.co/nQHY7P6/pexels-alina-chernii-18428855.jpg",
+      "details_pic1": "https://i.ibb.co/rwztvjk/pexels-pavel-danilyuk-7180235.jpg",
+      "details_pic2": "https://i.ibb.co/QkxKv31/pexels-luis-quintero-2091331.jpg",
+      "details_pic3": "https://i.ibb.co/s9DDJvH/pexels-vidal-balielo-jr-1682462.jpg",
+      "details_pic4": "https://i.ibb.co/vQ5DpFf/pexels-pavel-danilyuk-7180801.jpg",
+      "price": 349.99,
+      "name": "Baby Showers",
+      "description": "At LittleBundle Events, we believe that the arrival of a new baby is a joyous and precious moment in life. We are your dedicated team of event experts, committed to creating heartfelt and unforgettable baby showers that honor parents-to-be and welcome the little one into the world with love and warmth. We are a passionate and creative team of event planners who specialize in crafting unique and personalized baby showers. Whether you're expecting your first child or celebrating the arrival of a new addition to the family, we have the expertise to create a memorable and magical experience."
+    }
+  ]
+  
