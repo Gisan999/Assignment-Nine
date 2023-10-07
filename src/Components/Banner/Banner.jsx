@@ -40,13 +40,13 @@ const Banner = () => {
                         }}>
                         </Typewriter></span>
                     </h2>
-                    <p className="text-xl font-light font-mono mt-5">Marriage is the sweet union of two hearts. Which helps them stay together till death...
+                    <div className="text-xl font-light font-mono mt-5">Marriage is the sweet union of two hearts. Which helps them stay together till death...
                         <div className="flex">
                             <AiOutlineHeart></AiOutlineHeart>
                             <AiOutlineHeart></AiOutlineHeart>
                             <AiOutlineHeart></AiOutlineHeart>
                         </div>
-                    </p>
+                    </div>
                 </div>
             </div>
             <LIfeStyle></LIfeStyle>

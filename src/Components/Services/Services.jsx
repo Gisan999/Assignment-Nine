@@ -1,28 +1,23 @@
 /* eslint-disable react/prop-types */
-
-
+import { Link } from "react-router-dom";
 const Services = ({ event }) => {
-    console.log(event);
 
-    const { photo, price, name, description } = event;
+    const { photo, price, name, description, _id } = event;
 
     return (
         <div>
             <div>
-
-
-
                 <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                     <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg hover:scale-125 transition duration-500 cursor-pointer">
                         <img className="" src={photo} alt="profile-picture" />
                     </div>
                     <div className="p-6 ">
-                        <h4 className="mb-2 block font-sans text-2xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
+                        <h4 className="mb-2 block font-sans text-3xl font-semibold leading-snug tracking-normal text-blue-gray-900 antialiased">
                             {name}
                         </h4>
                         {
                             description.length > 80 ?
-                                <p className="text-gray-500 font-semibold font-mono">{description.slice(0, 80)}...</p>
+                                <div className="text-gray-500 font-semibold text-lg font-mono">{description.slice(0, 80)}...</div>
                                 :
                                 <p>{description}</p>
                         }
@@ -31,13 +26,9 @@ const Services = ({ event }) => {
                         </p>
                     </div>
                     <div className="pb-5 px-5">
-                        <button className="btn w-full btn-outline btn-info ">Show More Details</button>
+                    <Link to={`/fakeData/${_id}`}> <button className="btn w-full btn-outline btn-info ">Show More Details</button></Link>
                     </div>
-
                 </div>
-
-
-
             </div>
         </div>
     );

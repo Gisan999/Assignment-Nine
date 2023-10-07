@@ -1,10 +1,10 @@
 import { useLoaderData } from "react-router-dom";
-import Banner from "../../Banner/Banner";
-import Services from "../../Services/Services";
+import Services from "../Services/Services";
 import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
-import background from '../../../assets/background.png'
+import background from '../../assets/background.png'
+import Banner from "../Banner/Banner";
 
 
 const Home = () => {
@@ -20,10 +20,7 @@ const Home = () => {
     console.log(event);
 
     return (
-        <div
-
-
-        >
+        <div>
             <div>
                 <Banner></Banner>
             </div>
@@ -33,10 +30,7 @@ const Home = () => {
                 backgroundSize: 'cover',
                 backgroundRepeat: 'no-repeat',
                 backgroundPosition: 'right',
-            }}
-
-
-            >
+            }}>
                 <div>
                     <h2 className="text-5xl text-center font-bold font-mono p-5 py-9 ">Our Services</h2>
                 </div>
@@ -46,7 +40,7 @@ const Home = () => {
                         className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 ">
 
                         {
-                            event?.map(event => <Services key={event['id']} event={event}></Services>)
+                            event?.map((event, idx) => <Services key={idx} event={event}></Services>)
                         }
                     </div>
                 </div>
