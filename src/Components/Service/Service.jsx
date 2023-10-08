@@ -4,10 +4,12 @@ import { useLoaderData, useParams } from "react-router-dom";
 import { FcCallTransfer } from "react-icons/fc";
 import { MdEmail, MdWhatsapp } from "react-icons/md";
 import { FaFacebookMessenger, FaInstagram } from "react-icons/fa";
+// import Loading from "../loading/loading";
 
 const Service = () => {
     const [event, setEvent] = useState({});
     const dataLoad = useLoaderData();
+    console.log(dataLoad);
     const { id } = useParams();
     const idInt = parseInt(id);
 
@@ -41,7 +43,7 @@ const Service = () => {
                         The trust is yours and it is our responsibility to keep it</p>
                 </div>
 
-                <div className="ml-5">
+                <div className="ml-5 lg:ml-0">
                     <div className="p-4 bg-green-50 space-y-5 ">
                         <h2 className="text-xl font-bold font-serif uppercase">We provide this service for you at an affordable price</h2>
                         <button className="btn font-bold text-xl  no-animation w-full btn-outline btn-success">${price}</button>
@@ -70,6 +72,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
+        
         </div>
     );
 };

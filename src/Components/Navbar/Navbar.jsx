@@ -1,13 +1,46 @@
-import { NavLink } from "react-router-dom";
+import { useContext } from "react";
+import { Link, NavLink } from "react-router-dom";
+import { AuthContext } from "../../Provider/AuthProvider";
+
 
 const Navbar = () => {
 
 
+    const { user, logOut } = useContext(AuthContext);
+
+    const handleLogOut = () => {
+        logOut()
+            .then()
+            .catch()
+    }
+
+    // console.log(user.email);
+
     const navbar = <>
-      <p className="text-xl"><NavLink className={"active:text-red-500 focus:text-blue-600 focus:underline focus:font-bold"} to="/">Home</NavLink></p>
-      <p className="text-xl"><NavLink className={"active:text-red-500 focus:text-blue-600 focus:underline focus:font-bold"} to="/">Home</NavLink></p>
-      <p className="text-xl"><NavLink className={"active:text-red-500 focus:text-blue-600 focus:underline focus:font-bold"} to="/">Home</NavLink></p>
-  
+
+        <p className="text-lg "><NavLink
+            to="/"
+            style={({ isActive, isPending }) => {
+                return {
+                    fontWeight: isActive ? "bold" : "",
+                    color: isPending ? "red" : "black",
+                };
+            }}
+        >
+            Home
+        </NavLink></p>
+        <p className="text-lg "><NavLink
+            to="/login"
+            style={({ isActive, isPending }) => {
+                return {
+                    fontWeight: isActive ? "bold" : "",
+                    color: isPending ? "red" : "black",
+                };
+            }}
+        >
+            Login
+        </NavLink></p>
+
     </>
 
     return (
@@ -29,9 +62,29 @@ const Navbar = () => {
                         {navbar}
                     </ul>
                 </div>
-                <div className="navbar-end">
-                    <img className="rounded-full w-12 mr-3" src="https://ps.w.org/user-avatar-reloaded/assets/icon-256x256.png?rev=2540745" alt="" />
-                    <a className="btn ">Login</a>
+                <div className="navbar-end space-x-3">
+                <span className="font-medium italic">{user?.displayName
+                    }</span>
+
+                    {
+                        user ? 
+
+                        <img className="rounded-full h-12 bg-none border-none w-12 mr-3" src={user?.photoURL} alt="" />
+                        :
+                        <img className="rounded-full h-12 bg-none border-none w-12 mr-3" src="https://www.freeiconspng.com/thumbs/error/a-red-error-exclamation-sign-meaningful-official-round-26.png"/>
+                    }
+
+
+                    {
+                        user ?
+
+                            <button onClick={handleLogOut} className="btn btn-outline btn-secondary">Log Out</button>
+                            :
+                            <Link to="/login">
+                                <button className="btn btn-outline btn-primary">Login</button></Link>
+                    }
+
+                  
                 </div>
             </div>
         </div>

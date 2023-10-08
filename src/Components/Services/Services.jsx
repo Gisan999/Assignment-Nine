@@ -6,8 +6,8 @@ const Services = ({ event }) => {
 
     return (
         <div>
-            <div>
-                <div className="relative flex w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
+            <div className="px-5 md:px-3 lg:px-0">
+                <div className="relative flex w-96 md:w-80 lg:w-96 flex-col rounded-xl bg-white bg-clip-border text-gray-700 shadow-md">
                     <div className="relative mx-4 mt-4 h-80 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg hover:scale-125 transition duration-500 cursor-pointer">
                         <img className="" src={photo} alt="profile-picture" />
                     </div>
