@@ -24,7 +24,12 @@ const Login = () => {
 
     const handleGoogle = () => {
        signInWithPopup(auth, provider)
-       .then(result => console.log(result.user))
+       .then(result => {
+        console.log(result.user)
+        navigate(location?.state ? location.state : '/');
+
+       })
+
        .catch(error => console.log(error.message))
     }
 

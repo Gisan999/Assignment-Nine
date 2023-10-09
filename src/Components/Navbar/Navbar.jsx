@@ -30,6 +30,28 @@ const Navbar = () => {
             Home
         </NavLink></p>
         <p className="text-lg "><NavLink
+            to="/about"
+            style={({ isActive, isPending }) => {
+                return {
+                    fontWeight: isActive ? "bold" : "",
+                    color: isPending ? "red" : "black",
+                };
+            }}
+        >
+            About
+        </NavLink></p>
+        <p className="text-lg "><NavLink
+            to="/gallery"
+            style={({ isActive, isPending }) => {
+                return {
+                    fontWeight: isActive ? "bold" : "",
+                    color: isPending ? "red" : "black",
+                };
+            }}
+        >
+            Gallery
+        </NavLink></p>
+        <p className="text-lg "><NavLink
             to="/login"
             style={({ isActive, isPending }) => {
                 return {
@@ -55,7 +77,7 @@ const Navbar = () => {
                             {navbar}
                         </ul>
                     </div>
-                    <a className=" uppercase font-serif text-xl md:text-3xl font-extrabold">Life <sup className="text-2xl md:text-3xl text-sky-500">S</sup> tyle</a>
+                    <a className=" uppercase font-serif text-xl md:text-3xl font-extrabold">Event  <sup className="text-2xl md:text-3xl text-sky-500">H</sup> orizon</a>
                 </div>
                 <div className="navbar-center hidden lg:flex  ">
                     <ul className="menu space-x-5 menu-horizontal px-1">

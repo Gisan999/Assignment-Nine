@@ -1,14 +1,11 @@
 import { Link, useNavigate } from "react-router-dom";
-import bgpng from '../../assets/bgpng.png'
+import bgpng from '../../assets/result.png'
 import { useContext, useState } from "react";
 import { AuthContext } from "../../Provider/AuthProvider";
 import Swal from 'sweetalert2'
 import { FaEye, FaEyeSlash } from "react-icons/fa";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-
-
-
 
 
 const Register = () => {

@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from "react";
 import background from '../../assets/background.png'
 import Banner from "../Banner/Banner";
-import Footer from "../Footer/Footer";
+import Team from "../Team/Team";
 
 const Home = () => {
     useEffect(() => {
@@ -40,10 +40,8 @@ const Home = () => {
                     </div>
                 </div>
             </div>
-            <section className="">
-                    <Footer></Footer>
-            </section>
-
+         
+<div><Team></Team></div>
         </div>
     );
 };

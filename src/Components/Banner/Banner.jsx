@@ -6,7 +6,7 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from "react";
 import LIfeStyle from "../LIfeStyle/LIfeStyle";
-import bgpng from '../../assets/bgpng.png'
+import bgpng from '../../assets/result.png'
 
 const Banner = () => {
 

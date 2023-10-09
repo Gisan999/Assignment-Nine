@@ -17,7 +17,7 @@ const LIfeStyle = () => {
             <div className='flex flex-col lg:flex-row gap-20'>
                <div className='flex justify-center mt-8'>
                <div  data-aos="flip-left"className='items-center px-5 md:px-0 '>
-                    <h2 className="text-2xl lg:text-3xl font-extrabold font-mono bg-gradient-to-b bg-clip-text text-transparent from-sky-500 to-teal-500">LIFE STYLE...
+                    <h2 className="text-2xl lg:text-3xl font-extrabold font-mono bg-gradient-to-b bg-clip-text text-transparent from-sky-500 to-teal-500">Event Horizon...
                     </h2>
                     <h3 className=" text-2xl md:text-3xl lg:text-5xl font-bold">We Always Try To Give 
                     <br />
