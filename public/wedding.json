@@ -1,0 +1,44 @@
+[
+    {
+      "husband_name": "John Smith",
+      "wife_name": "Emily Smith",
+      "country": "United States",
+      "id": "12345",
+      "image_url": "https://i.ibb.co/4R3by8R/pexels-esther-huynh-bich-2340876.jpg"
+    },
+    {
+      "husband_name": "Michael Johnson",
+      "wife_name": "Jennifer Johnson",
+      "country": "Canada",
+      "id": "67890",
+      "image_url": "https://i.ibb.co/cCphK94/pexels-jonathan-borba-3014856.jpg"
+    },
+    {
+      "husband_name": "David Brown",
+      "wife_name": "Sarah Brown",
+      "country": "United Kingdom",
+      "id": "54321",
+      "image_url": "https://i.ibb.co/Jsy9jGc/pexels-jonathan-borba-3014860.jpg"
+    },
+    {
+      "husband_name": "Carlos Rodriguez",
+      "wife_name": "Isabella Rodriguez",
+      "country": "Spain",
+      "id": "98765",
+      "image_url": "https://i.ibb.co/ZKqDKZL/pexels-jonathan-borba-3738671.jpg"
+    },
+    {
+      "husband_name": "Andreas Müller",
+      "wife_name": "Lena Müller",
+      "country": "Germany",
+      "id": "45678",
+      "image_url": "https://i.ibb.co/q73bdwd/pexels-melike-benli-8632615.jpg"
+    },
+    {
+      "husband_name": "Hiroshi Tanaka",
+      "wife_name": "Yuki Tanaka",
+      "country": "Japan",
+      "id": "23456",
+      "image_url": "https://i.ibb.co/r35hY64/pexels-studio-negarin-3650423.jpg"
+    }
+  ]

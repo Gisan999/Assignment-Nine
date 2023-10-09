@@ -7,13 +7,14 @@ import Register from "../Components/Register/Register";
 import PrivateRoute from "./PrivateRoute";
 import About from "../Components/About/About";
 import Gallery from "../Components/Gallery/Gallery";
-
+import ErrorPage from "../Components/ErrorPage/ErrorPage";
 
 
 const routes = createBrowserRouter([
     {
         path: "/",
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: ([
             {
                 path: "/",
@@ -41,6 +42,7 @@ const routes = createBrowserRouter([
                 path: "/gallery",
                 element: <PrivateRoute><Gallery></Gallery></PrivateRoute>
             }
+          
         ])
     }
 ])

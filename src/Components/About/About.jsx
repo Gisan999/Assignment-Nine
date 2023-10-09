@@ -6,6 +6,7 @@ import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import LIfeStyle from '../LIfeStyle/LIfeStyle';
 import Team from '../Team/Team';
+import Includes from '../Includes/Includes';
 
 const About = () => {
 
@@ -25,7 +26,7 @@ const About = () => {
                 backgroundPosition: 'center',
             }} className=''>
 
-                <div className='text-center py-28 px-3 md:px-0 lg:py-60'>
+                <div data-aos="fade-up" className='text-center py-28 px-3 md:px-0 lg:py-60'>
 
                     <h2 className="text-5xl md:text-7xl font-extrabold font-mono text-center ">About <span className='animate-pulse text-violet-600'>Us!</span></h2>
                     <p className='text-lg md:text-xl font-sans font-medium italic pt-7 text-teal-700'>By the grace of Allah we always work with integrity. From our side we do not <br /><br />skimp on the work.  We want to earn your trust</p>
@@ -81,6 +82,11 @@ const About = () => {
                     <LIfeStyle></LIfeStyle>
                 </div>
             </div>
+          
+            <div>
+                <Includes></Includes>
+            </div>
+
             <div  data-aos="fade-up" className=' relative bottom-14 flex justify-center' >
                 <div className="stats shadow ">
 

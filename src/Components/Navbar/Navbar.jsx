@@ -62,6 +62,7 @@ const Navbar = () => {
         >
             Login
         </NavLink></p>
+      
 
     </>
 
@@ -77,7 +78,7 @@ const Navbar = () => {
                             {navbar}
                         </ul>
                     </div>
-                    <a className=" uppercase font-serif text-xl md:text-3xl font-extrabold">Event  <sup className="text-2xl md:text-3xl text-sky-500">H</sup> orizon</a>
+                    <a className=" uppercase font-serif text-xl md:text-3xl font-extrabold">Event  <sup className="text-2xl md:text-3xl text-sky-500"> H </sup> orizon</a>
                 </div>
                 <div className="navbar-center hidden lg:flex  ">
                     <ul className="menu space-x-5 menu-horizontal px-1">
@@ -85,16 +86,26 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end space-x-3">
-                <span className="font-medium italic">{user?.displayName
-                    }</span>
 
-                    {
-                        user ? 
 
-                        <img className="rounded-full h-12 bg-none border-none w-12 mr-3" src={user?.photoURL} alt="" />
-                        :
-                        <img className="rounded-full h-12 bg-none border-none w-12 mr-3" src="https://www.freeiconspng.com/thumbs/error/a-red-error-exclamation-sign-meaningful-official-round-26.png"/>
-                    }
+                    <div className="">
+
+                       <div className="flex justify-center">
+                       {
+                            user ?
+
+                                <img className="rounded-full h-10 bg-none border-none w-10 mr-3" src={user?.photoURL} alt="" />
+                                :
+                                <img className="rounded-full h-12 bg-none border-none w-12 mr-3" src="https://www.freeiconspng.com/thumbs/error/a-red-error-exclamation-sign-meaningful-official-round-26.png" />
+                        }
+                       </div>
+
+                        <span className="font-medium italic text-center">{user?.displayName}</span>
+
+
+                    </div>
+
+
 
 
                     {
@@ -106,7 +117,7 @@ const Navbar = () => {
                                 <button className="btn btn-outline btn-primary">Login</button></Link>
                     }
 
-                  
+
                 </div>
             </div>
         </div>

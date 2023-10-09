@@ -6,6 +6,8 @@ import Aos from 'aos'
 import 'aos/dist/aos.css'
 import { useEffect } from 'react';
 import Team from '../Team/Team';
+import Collection from '../Collection/Collection';
+import Includes from '../Includes/Includes';
 
 const Gallery = () => {
 
@@ -23,7 +25,7 @@ const Gallery = () => {
                 backgroundPosition: 'center',
             }} className=''>
 
-                <div className='text-center py-28 px-3 md:px-0 lg:py-60'>
+                <div data-aos="zoom-in" className='text-center py-28 px-3 md:px-0 lg:py-60'>
 
                     <h2 className="text-5xl md:text-7xl font-extrabold font-mono text-center "><span className='animate-pulse text-teal-600'>Gallery</span></h2>
                     <p className='text-lg md:text-xl font-sans font-medium italic pt-7 text-teal-700'>By the grace of Allah we always work with integrity. From our side we do not <br /><br />skimp on the work.  We want to earn your trust</p>
@@ -64,6 +66,12 @@ const Gallery = () => {
                 </div>
 
 
+            </div>
+            <div>
+                <Includes></Includes>
+            </div>
+            <div>
+                <Collection></Collection>
             </div>
 
             <div>

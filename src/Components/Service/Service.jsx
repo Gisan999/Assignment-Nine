@@ -39,7 +39,47 @@ const Service = () => {
             <div className="grid grid-cols-1 lg:grid-cols-3 gap-6 mt-8 ">
                 <div className="col-span-2">
                     <h2 className="text-lg md:text-xl px-4 lg:px-0 lg:text-2xl text-justify font-medium font-mono pb-8">{description}</h2>
-                    <p className="px-4 lg:px-0 text-justify text-lg italic  font-thin font-serif"><span className="text-xl font-semibold">Special Note:</span>I and all my team try to make the customer happy. We never do anything with bad intentions. You can feel free to make your special day golden with us.
+                    <div data-aos="fade-up" className='  flex justify-center' >
+                        <div className="stats shadow ">
+
+                            <div className="stat p-12 bg-teal-200">
+                                <div className="stat-figure text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                                </div>
+                                <div className="stat-title">Happy Couples</div>
+                                <div className="stat-value text-primary">1895 +</div>
+
+                            </div>
+
+                            <div className="stat  p-12 bg-teal-200">
+                                <div className="stat-figure text-secondary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                                </div>
+                                <div className="stat-title">Decoration</div>
+                                <div className="stat-value text-secondary">980 +</div>
+
+                            </div>
+
+                            <div className="stat  p-12 bg-teal-200">
+                                <div className="stat-figure text-primary">
+                                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" className="inline-block w-8 h-8 stroke-current"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
+                                </div>
+                                <div className="stat-title">Weddings</div>
+                                <div className="stat-value text-primary">1735 +</div>
+
+                            </div>
+
+                            <div className="stat  p-12 bg-teal-200">
+                                <div className="stat-figure text-secondary">
+
+                                </div>
+                                <div className="stat-title">Locations</div>
+                                <div className="stat-value">267 +</div>
+
+                            </div>
+
+                        </div>
+                    </div>            <p className="px-4 mt-5 lg:px-0 text-justify text-lg italic  font-thin font-serif"><span className="text-xl font-semibold">Special Note:</span>I and all my team try to make the customer happy. We never do anything with bad intentions. You can feel free to make your special day golden with us.
                         The trust is yours and it is our responsibility to keep it</p>
                 </div>
 
@@ -59,7 +99,7 @@ const Service = () => {
                             <MdEmail className="text-5xl text-green-500"></MdEmail>
                             <div>
                                 <p className="text-pink-500 font-medium text-lg">Email Us</p>
-                                <p>help@life_style.com</p>
+                                <p>help@event_horizon.com</p>
                             </div>
                         </div>
                         <h2 className="text-xl font-semibold italic">Other means of communication</h2>
@@ -72,7 +112,7 @@ const Service = () => {
                     </div>
                 </div>
             </div>
-        
+
         </div>
     );
 };
